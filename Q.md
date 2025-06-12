@@ -44,3 +44,7 @@ Each item in this list indicates a document that can provide relevant reference 
 * [All that's old is new again; or, a fresh const proposal](references/all-that-is-old.md) A comprehensive proposal for Rust's effect 
 system that explores how to handle const functions in traits, introducing a (const) trait notation that allows methods to be optionally 
 const, with detailed examples of implementation patterns, conditional const bounds, and future extensions for additional effect types.
+* [RFC 3762: Const Trait Methods](references/rfc-3762.md) A detailed RFC proposing the addition of const trait methods to Rust, enabling 
+trait methods to be callable in const contexts through a system of const trait declarations, (const) method annotations, and const trait 
+bounds, with comprehensive examples showing how this enables generic const functions to work with trait methods while maintaining backward 
+compatibility.
